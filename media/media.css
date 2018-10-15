@@ -334,16 +334,14 @@
 }
 
 @media screen and (max-width: 415px) {
+
 	/*header*/
-	
 	header {
 		background-image: url('../image/Layer 6.jpg');
 		background-repeat: no-repeat;
 		background-size: cover; 
 	}
-	
 	/*menu*/
-	
 	#open {
 		transition: 0.5s all;
 		-webkit-transition: 0.5s all;
@@ -483,12 +481,11 @@
 
 	.container-3 {
 		min-height: 100vh;
-		padding-top: 0%;
-		padding-bottom: 5%;
+		padding-bottom: 15%;
 	}
 
 	.block-1 {
-		margin-top: 10%;
+		margin-top: 15%;
 	}
 
 	.block-1-text {
@@ -506,8 +503,7 @@
 	}
 
 	.container-4 {
-		padding-bottom: 25%;
-		padding-top: 15%;
+	    padding-bottom: 15%;
 	}
 
 	.block-2::before {
@@ -657,6 +653,20 @@
 		margin-top: 71% !important;
 	}
 
+	/*section-1*/
+
+	.container-3 {
+		padding-bottom: 15%;
+		padding-top: 15%;
+	}
+
+	/*section-5-1*/
+
+	.container-5-1 {
+		padding-bottom: 15%;
+		padding-top: 15%;
+	}
+
 	/*section-4*/
 
 	.block-4 {
@@ -681,6 +691,10 @@
     	margin-top: 15%;
 	}
 
+	.container-6 {
+		padding-bottom: 15%;
+	}
+
 	/*section-6*/
 
 	.row-block-6 {
@@ -699,4 +713,9 @@
 	.before-block-6::before {
     	margin-top: 15% !important;
 	}
+
+	.container-7 {
+		padding-bottom: 15%;
+	}
+
 }
